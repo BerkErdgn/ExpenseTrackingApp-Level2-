@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstnavigation"
+    app:startDestination="@id/animationFragment">
+
+    <fragment
+        android:id="@+id/animationFragment"
+        android:name="com.berke.expensevsincome.AnimationFragment"
+        android:label="fragment_animation"
+        tools:layout="@layout/fragment_animation" >
+        <action
+            android:id="@+id/action_animationFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.berke.expensevsincome.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_singUpFragment"
+            app:destination="@id/singUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_detailMainFragment"
+            app:destination="@id/detailMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singUpFragment"
+        android:name="com.berke.expensevsincome.SingUpFragment"
+        android:label="fragment_sing_up"
+        tools:layout="@layout/fragment_sing_up" >
+        <action
+            android:id="@+id/action_singUpFragment_to_detailMainFragment"
+            app:destination="@id/detailMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailMainFragment"
+        android:name="com.berke.expensevsincome.DetailMainFragment"
+        android:label="fragment_detail_main"
+        tools:layout="@layout/fragment_detail_main" >
+        <action
+            android:id="@+id/action_detailMainFragment_to_addItemFragment2"
+            app:destination="@id/addItemFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/addItemFragment2"
+        android:name="com.berke.expensevsincome.AddItemFragment"
+        android:label="fragment_add_item"
+        tools:layout="@layout/fragment_add_item" >
+        <action
+            android:id="@+id/action_addItemFragment2_to_listOfItemFragment2"
+            app:destination="@id/listOfItemFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/listOfItemFragment2"
+        android:name="com.berke.expensevsincome.ListOfItemFragment"
+        android:label="fragment_list_of_item"
+        tools:layout="@layout/fragment_list_of_item" />
+</navigation>

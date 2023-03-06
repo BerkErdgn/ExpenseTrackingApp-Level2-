@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "134698447504",
+    "project_id": "expensevsincomeapp",
+    "storage_bucket": "expensevsincomeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134698447504:android:c27e0ba704963d1e819e15",
+        "android_client_info": {
+          "package_name": "com.berke.expensevsincome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134698447504-a1ipuq2h0sbb9h6encm0oi4kujf1f7p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu87jDkqoFRauIEtS9yHhU7NHnAOh8kIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134698447504-a1ipuq2h0sbb9h6encm0oi4kujf1f7p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

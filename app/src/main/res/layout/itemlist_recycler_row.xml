@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/list_of_item_row">
+
+
+        <TextView
+            android:id="@+id/moneyText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:gravity="center"
+            android:textColor="#EEEEEE"/>
+
+        <TextView
+            android:id="@+id/expenseOrIncomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:gravity="center"
+            android:textColor="#EEEEEE"/>
+
+        <TextView
+            android:id="@+id/hintText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="TextView"
+            android:gravity="center"
+            android:textColor="#EEEEEE"/>
+    </LinearLayout>
+
+</LinearLayout>

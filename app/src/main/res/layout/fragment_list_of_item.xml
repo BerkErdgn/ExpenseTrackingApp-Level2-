@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListOfItemFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#F15412">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Price"
+            android:textColor="#34B3F1"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:text="Expense VS Income"
+            android:gravity="center"
+            android:textColor="#34B3F1"
+            android:textStyle="bold|italic"
+            android:background="@color/black"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_weight="4"
+            android:text="Hint"
+            android:gravity="center"
+            android:textColor="#34B3F1"
+            android:textStyle="bold|italic"
+            android:background="@color/black"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/itemListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
